@@ -1,12 +1,6 @@
 public class Ejercicio4 {
-    public static void main(String[] args){
-
-        //FINALIZAR!!!!!!!!!!!!!!!!!!!!
-
-        /*
-         * Ejercicio 4
-         */
-
+    public static void main(String[] args) {
+        // declaramos e inicializamos las variables como indica el enunciado
         boolean casado = true;
         int VALOR_MAXIMO = 999999;
         byte diaSemana = 1;
