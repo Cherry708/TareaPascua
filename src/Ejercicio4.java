@@ -1,5 +1,16 @@
 public class Ejercicio4 {
     public static void main(String[] args) {
+
+        /*
+         * Ejercicio 4
+         *
+         * Dentro del proyecto TareaPascua, crea una nueva clase (que contendrá el método main) que se
+         * llame Ejercicio 4.
+         * Haz el Ejercicio 4 de la tarea de la Unidad 2.
+         *
+         * Rubén Serrano Cano
+         */
+
         // declaramos e inicializamos las variables como indica el enunciado
         boolean casado = true;
         int VALOR_MAXIMO = 999999;
@@ -19,8 +30,11 @@ public class Ejercicio4 {
         System.out.println("\tEl valor de la variable miliseg es "+ miliseg);
         System.out.println("\tEl valor de la variable totalFactura es "+ totalFactura);
         System.out.println("\tEl valor de la variable poblacion es "+ poblacion);
-        System.out.println("\tEl valor de la variable sexo es "+ sexo +"\n"); /* añadimos un salto de línea para
-         facilitar la lectura del resultado*/
+        /*
+        añadimos un salto de línea para facilitar la lectura del resultado
+         */
+        System.out.println("\tEl valor de la variable sexo es "+ sexo +"\n");
+
 
         // mostramos en pantalla el resultado del apartado 4 usando la orden printf
         System.out.print("----- EJERCICIO DE VARIABLES Y TIPOS DE DATOS -----\n"); //añadimos un salto de línea

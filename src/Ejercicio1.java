@@ -12,8 +12,6 @@ public class Ejercicio1 {
          *
          */
 
-
-
         //Variables apartado 1
         double x;
         double y;

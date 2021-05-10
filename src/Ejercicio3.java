@@ -16,15 +16,22 @@ public class Ejercicio3 {
          *
          */
 
-
+        //Declaración e instanciación de variables
         boolean ejecucion = true;
-        String entrada;
+
         int numero;
         int suma = 0;
+
+        //Declaración e inicialización de objetos
+        String entrada;
         Scanner inputUsuario = new Scanner(System.in);
 
 
         while (ejecucion) {
+            /*
+            El usuario debe introducir un entero al que se le sumarán los anteriores
+            para mostrar el resultado
+             */
             System.out.println("Introduce un número entero: ");
             entrada = inputUsuario.nextLine();
             try {

@@ -19,7 +19,7 @@ public class Ejercicio2 {
         int dado1;
         int dado2;
 
-        //Declaración e instanciación
+        //Declaración e instanciación de objetos
         Random aleatorio = new Random();
 
         do {
@@ -37,8 +37,5 @@ public class Ejercicio2 {
 
         } while (dado1 != dado2 );
         System.out.println("¡Los dados son iguales!");
-
-
-
     }
 }

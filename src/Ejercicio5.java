@@ -1,32 +1,37 @@
 import java.io.*;
 import java.util.Scanner;
 
-/**
- * Rubén Serrano Cano
- *
- * Haz el ejercicio Un mensaje descifrado que se encuentra en el documento Ejercicios ficheros de la Unidad 7.
- * Almacenando datos en ficheros. Con ese ejercicio, comprobarás las posibilidades de las funciones de entrada y
- * salida de datos de Java en las que harás uso, entre otras, de las libreríascorrespondientes a File, FileReader,
- * BufferedReader, FileWriter, PrintWriter, que se encuentran enel paquete java.io.
- */
-
-
 public class Ejercicio5 {
+
+    /**
+     * @author  Ruben Serrano Cano
+     *
+     * Ejercicio 5
+     *
+     * Haz el ejercicio Un mensaje descifrado que se encuentra en el documento Ejercicios ficheros de la Unidad 7.
+     * Almacenando datos en ficheros. Con ese ejercicio, comprobarás las posibilidades de las funciones de entrada y
+     * salida de datos de Java en las que harás uso, entre otras, de las libreríascorrespondientes a File, FileReader,
+     * BufferedReader, FileWriter, PrintWriter, que se encuentran enel paquete java.io.
+     */
 
     public static void main(String[] args) throws IOException {
 
         //Declaración e inicialización de variables
-
         int distancia = 2;
-        /**
-         *
-         */
+
+        //Objeto que almacena la ruta al fichero de entrada
         String path;
+
+        //Objeto al que se le asigna el mensaje final
         String resultado = "";
+
+
+        //Objeto que contiene las líneas del fichero de entrada
         String contenido;
 
         //Declaración e instanciación de objetos
         Scanner inputUsuario;
+
         /*
         Objetos para el flujo de entrada de datos
          */
@@ -34,6 +39,7 @@ public class Ejercicio5 {
         FileReader lecturaFichero;
         BufferedReader reader;
         Scanner scannerFichero;
+
         /*
         Objetos para el flujo de salida de datos
          */
